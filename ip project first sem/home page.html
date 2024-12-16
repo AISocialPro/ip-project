@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Explore the Cosmos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+
+        header {
+            background-color: #1a1a2e;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #16213e;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .section {
+            margin: 20px 0;
+        }
+
+        .section h2 {
+            color: #f39c12;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #1a1a2e;
+            color: white;
+        }
+
+        .card {
+            background: #1a1a2e;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
+        .button {
+            display: inline-block;
+            background: #f39c12;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background: #e67e22;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore the Cosmos</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="planets.html">Planets</a>
+        <a href="stars.html">Stars</a>
+        <a href="galaxies.html">Galaxies</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section class="section">
+            <h2>Welcome to the Universe</h2>
+            <p>Embark on a journey through the cosmos! Learn about the wonders of our universe, from the planets in our solar system to the farthest galaxies. Discover the mysteries of space and our place within it.</p>
+        </section>
+
+        <section class="section">
+            <h2>Featured</h2>
+            <div class="card">
+                <h3>Planets</h3>
+                <p>Explore the planets in our solar system and their unique characteristics. Each planet holds its own mysteries, from the red deserts of Mars to the storms of Jupiter.</p>
+                <a class="button" href="planets.html">Learn More</a>
+            </div>
+            <div class="card">
+                <h3>Stars</h3>
+                <p>Discover the life cycle of stars, from their formation in stellar nurseries to their spectacular deaths as supernovae or peaceful transformations into white dwarfs.</p>
+                <a class="button" href="stars.html">Learn More</a>
+            </div>
+            <div class="card">
+                <h3>Galaxies</h3>
+                <p>Journey beyond our Milky Way to explore countless galaxies, each containing billions of stars, planets, and their own unique phenomena.</p>
+                <a class="button" href="galaxies.html">Learn More</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Explore the Cosmos | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
